@@ -1,0 +1,52 @@
+/* Estilo general del componente */
+.biseccion-result {
+    color: #fff;
+    background-color: #181b23;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para las respuestas */
+.response {
+    font-size: 1.2em;
+    color: #9da5b1;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #2e3440; /* Un color más oscuro para las líneas de la tabla */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #2e3440; /* Un color más oscuro para el encabezado */
+    color: #a4abb6; /* Color claro para el texto del encabezado */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #1f2329; /* Color alterno para las filas */
+}
+
+/* Estilos para mejorar la visualización en dispositivos móviles */
+@media (max-width: 768px) {
+    .biseccion-result {
+        padding: 10px;
+    }
+
+    .response {
+        font-size: 1em;
+    }
+}

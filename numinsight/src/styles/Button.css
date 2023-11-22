@@ -1,0 +1,31 @@
+.method-button {
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 15px;
+    width: 190px;
+}
+
+.method-button:hover {
+    background-color: #181b23;
+    transform: translateY(-2px);
+    color: #FFF;
+}
+
+.method-button:active {
+    background-color: #181b23;
+    transform: translateY(0);
+}
+
+.method-button:focus {
+    box-shadow: 0 0 0 3px #181b23;
+}
